@@ -21,10 +21,11 @@ Install the required packages:
 sh
 Copy code
 pip install -r requirements.txt
+
+
 Run the Python scripts:
 
-sh
-Copy code
 python neuron_HH.py
 python neuron_GUI.py
 python neuron_disease.py
+
