@@ -18,13 +18,13 @@ This chapter contains code examples for simulating Hodgkin-Huxley neuron models 
 
 Install the required packages:
 
-sh
+```sh
 Copy code
 pip install -r requirements.txt
 
 
 Run the Python scripts:
-
+```sh
 python neuron_HH.py
 python neuron_GUI.py
 python neuron_disease.py
