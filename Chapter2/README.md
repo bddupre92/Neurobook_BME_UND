@@ -1,5 +1,3 @@
-Sure! Here is the entire `README.md` content in one markdown block for easy copying and pasting into GitHub:
-
 ```markdown
 # Chapter 2: Hodgkin-Huxley Neuron Models
 
