@@ -1,4 +1,3 @@
-```markdown
 # Chapter 2: Hodgkin-Huxley Neuron Models
 
 This chapter contains code examples for simulating Hodgkin-Huxley neuron models using the NEURON simulation environment.
