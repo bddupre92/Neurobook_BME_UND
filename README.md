@@ -42,3 +42,16 @@ This repository contains code examples for simulating neurons using the NEURON s
 
    ```sh
    cd /path/to/your/directory
+3. Clone the GitHub Repository
+  ```sh
+   git clone https://github.com/your-username/your-repo.git
+4. Navigate to the Chapter repo you want to run examples for
+   ```sh
+   cd chapter repo
+5. Run the examples
+   ```sh
+   python3 example.py
+
+NOW YOU ARE SET!
+
+
