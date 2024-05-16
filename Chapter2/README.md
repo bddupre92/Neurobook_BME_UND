@@ -15,3 +15,16 @@ This chapter contains code examples for simulating Hodgkin-Huxley neuron models 
    ```sh
    python3 -m venv .venv
    source .venv/bin/activate
+
+Install the required packages:
+
+sh
+Copy code
+pip install -r requirements.txt
+Run the Python scripts:
+
+sh
+Copy code
+python neuron_HH.py
+python neuron_GUI.py
+python neuron_disease.py
