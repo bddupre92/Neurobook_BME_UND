@@ -1,4 +1,4 @@
-![alt]()
+![alt](https://github.com/bddupre92/Neurobook_BME_UND/blob/main/Chapter1a/Lab2/Synthetic%20Neuron%20Simulation%20with%20Adjustable%20Threshold.png)
 # Synthetic Neuron Simulation with Adjustable Threshold
 
 ## Overview
