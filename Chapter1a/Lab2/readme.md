@@ -1,3 +1,4 @@
+![alt]()
 # Synthetic Neuron Simulation with Adjustable Threshold
 
 ## Overview
