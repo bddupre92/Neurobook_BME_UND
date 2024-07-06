@@ -1,69 +1,45 @@
-This code simulates the behavior of a synthetic neuron using the Hodgkin-Huxley model.
-<h2>Lab Overview</h2>
-    <p>In this lab, you will simulate the behavior of a synthetic neuron using an Arduino microcontroller. The simulation is based on the Hodgkin-Huxley model, which describes how action potentials in neurons are initiated and propagated through the movement of ions across the cell membrane. This model uses differential equations to represent the dynamics of ion channels, which are crucial for understanding neuronal activity. Additionally, you will use an oscilloscope to visualize the membrane potential signal output from the Arduino.</p>
+In this lab, you will simulate the behavior of a synthetic neuron using an Arduino microcontroller. The simulation is based on the Hodgkin-Huxley model, which describes how action potentials in neurons are initiated and propagated through the movement of ions across the cell membrane. This model uses differential equations to represent the dynamics of ion channels, which are crucial for understanding neuronal activity. Additionally, you will use an oscilloscope to visualize the membrane potential signal output from the Arduino.
 
-    <h2>Objectives</h2>
-    <ul>
-        <li>Understand the Hodgkin-Huxley model and its application in simulating neuronal behavior.</li>
-        <li>Implement the Hodgkin-Huxley equations in Arduino code.</li>
-        <li>Simulate the behavior of a synthetic neuron and observe the output.</li>
-        <li>Use an oscilloscope to visualize the membrane potential signal.</li>
-    </ul>
+Objectives
+Understand the Hodgkin-Huxley model and its application in simulating neuronal behavior.
+Implement the Hodgkin-Huxley equations in Arduino code.
+Simulate the behavior of a synthetic neuron and observe the output.
+Use an oscilloscope to visualize the membrane potential signal.
+Materials Needed
+Arduino microcontroller
+Breadboard and connecting wires
+Resistors and LEDs (optional, for visual representation of the output)
+Computer with Arduino IDE installed
+Oscilloscope
+Key Concepts
+Hodgkin-Huxley Model
+The Hodgkin-Huxley model is a set of nonlinear differential equations that describe the ionic mechanisms underlying the initiation and propagation of action potentials in neurons. The model includes variables for membrane potential (V), and gating variables (n, m, and h) which represent the probability of ion channels being open or closed.
 
-    <h2>Materials Needed</h2>
-    <ul>
-        <li>Arduino microcontroller</li>
-        <li>Breadboard and connecting wires</li>
-        <li>Resistors and LEDs (optional, for visual representation of the output)</li>
-        <li>Computer with Arduino IDE installed</li>
-        <li>Oscilloscope</li>
-    </ul>
+Membrane Potential (V): The voltage difference across the neuron's membrane.
+Gating Variables (n, m, h): Variables representing the state of potassium (n), sodium activation (m), and sodium inactivation (h) gates.
+Equations
+The model is defined by the following key equations:
 
-    <h2>Key Concepts</h2>
+Membrane Potential (V): Describes the change in membrane potential over time based on ion conductances and injected current.
+Gating Variables (n, m, h): Describe the dynamics of the gating variables, which affect the conductance of ion channels.
+Procedure
+Setup the Arduino Environment:
 
-    <h3>Hodgkin-Huxley Model</h3>
-    <p>The Hodgkin-Huxley model is a set of nonlinear differential equations that describe the ionic mechanisms underlying the initiation and propagation of action potentials in neurons. The model includes variables for membrane potential (<code>V</code>), and gating variables (<code>n</code>, <code>m</code>, and <code>h</code>) which represent the probability of ion channels being open or closed.</p>
-    <ul>
-        <li><strong>Membrane Potential (<code>V</code>)</strong>: The voltage difference across the neuron's membrane.</li>
-        <li><strong>Gating Variables (<code>n</code>, <code>m</code>, <code>h</code>)</strong>: Variables representing the state of potassium (<code>n</code>), sodium activation (<code>m</code>), and sodium inactivation (<code>h</code>) gates.</li>
-    </ul>
+Connect the Arduino to your computer.
+Open the Arduino IDE and create a new sketch.
+Initialize Variables and Constants:
 
-    <h3>Equations</h3>
-    <p>The model is defined by the following key equations:</p>
-    <ul>
-        <li><strong>Membrane Potential (<code>V</code>)</strong>: Describes the change in membrane potential over time based on ion conductances and injected current.</li>
-        <li><strong>Gating Variables (<code>n</code>, <code>m</code>, <code>h</code>)</strong>: Describe the dynamics of the gating variables, which affect the conductance of ion channels.</li>
-    </ul>
+Define initial values for the gating variables (n1, m1, h1) and membrane potential (V1).
+Define constants such as membrane capacitance (C), maximum conductances for potassium (g_k_max), sodium (g_Na_max), and leak channels (g_L), and equilibrium potentials for potassium (E_K), sodium (E_Na), and leak channels (E_L).
+Implement the Hodgkin-Huxley Equations:
 
-    <h2>Procedure</h2>
+Write functions to calculate the derivatives of the gating variables (n_prime, m_prime, h_prime).
+Update the state of the neuron in the loop function by calculating new values for the gating variables and membrane potential.
+Output the Membrane Potential:
 
-    <h3>Setup the Arduino Environment:</h3>
-    <ol>
-        <li>Connect the Arduino to your computer.</li>
-        <li>Open the Arduino IDE and create a new sketch.</li>
-    </ol>
-
-    <h3>Initialize Variables and Constants:</h3>
-    <ol>
-        <li>Define initial values for the gating variables (<code>n1</code>, <code>m1</code>, <code>h1</code>) and membrane potential (<code>V1</code>).</li>
-        <li>Define constants such as membrane capacitance (<code>C</code>), maximum conductances for potassium (<code>g_k_max</code>), sodium (<code>g_Na_max</code>), and leak channels (<code>g_L</code>), and equilibrium potentials for potassium (<code>E_K</code>), sodium (<code>E_Na</code>), and leak channels (<code>E_L</code>).</li>
-    </ol>
-
-    <h3>Implement the Hodgkin-Huxley Equations:</h3>
-    <ol>
-        <li>Write functions to calculate the derivatives of the gating variables (<code>n_prime</code>, <code>m_prime</code>, <code>h_prime</code>).</li>
-        <li>Update the state of the neuron in the <code>loop</code> function by calculating new values for the gating variables and membrane potential.</li>
-    </ol>
-
-    <h3>Output the Membrane Potential:</h3>
-    <ol>
-        <li>Use the <code>analogWrite</code> function to output the membrane potential to pin 3 on the Arduino.</li>
-        <li>Connect pin 3 to the oscilloscope to visualize the signal.</li>
-    </ol>
-
-    <h2>Connecting the Oscilloscope</h2>
-    <ol>
-        <li>Connect the ground probe of the oscilloscope to the ground pin on the Arduino.</li>
-        <li>Connect the signal probe of the oscilloscope to pin 3 of the Arduino.</li>
-        <li>Turn on the oscilloscope and set it to the appropriate voltage and time scales to visualize the signal from the Arduino.</li>
-    </ol>
+Use the analogWrite function to output the membrane potential to pin 3 on the Arduino.
+Connect pin 3 to the oscilloscope to visualize the signal.
+Connecting the Oscilloscope
+Connect the ground probe of the oscilloscope to the ground pin on the Arduino.
+Connect the signal probe of the oscilloscope to pin 3 of the Arduino.
+Turn on the oscilloscope and set it to the appropriate voltage and time scales to visualize the signal from the Arduino.
