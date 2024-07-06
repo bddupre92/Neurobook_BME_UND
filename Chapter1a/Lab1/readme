@@ -1,0 +1,2 @@
+This code simulates the behavior of a synthetic neuron using the Hodgkin-Huxley model.
+The setup function initializes the neuron’s state and sets up the Arduino environment, while the loop function continuously updates the neuron’s state based on the Hodgkin-Huxley equations and outputs the membrane potential to pin 3. The functions n_prime, m_prime, and h_prime calculate the derivatives of the gating variables n, m, and h, respectively, which are crucial for updating their values in each iteration of the simulation.
