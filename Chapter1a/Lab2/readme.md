@@ -1,31 +1,35 @@
-Lab Add-On: Simulating the Action Potential Threshold with a Potentiometer
-Overview
-In this add-on to the synthetic neuron simulation lab, you will incorporate a potentiometer to dynamically adjust the action potential threshold. This enhancement allows you to explore how changing the threshold affects the neuron's behavior.
+# Synthetic Neuron Simulation with Adjustable Threshold
 
-Objectives
-Integrate a potentiometer into the existing Arduino setup.
-Modify the code to read the potentiometer value and use it to adjust the action potential threshold.
-Observe the effects of changing the threshold on the membrane potential using an oscilloscope.
-Materials Needed
-Arduino microcontroller
-Breadboard and connecting wires
-Potentiometer (10kΩ recommended)
-Resistors and LEDs (optional, for visual representation of the output)
-Computer with Arduino IDE installed
-Oscilloscope
-Setup
-Connect the Potentiometer:
+## Overview
 
-Connect one outer pin of the potentiometer to the 5V pin on the Arduino.
-Connect the other outer pin to the GND pin.
-Connect the middle pin (wiper) to an analog input pin on the Arduino (e.g., A0).
-Modify the Arduino Code:
+This repository enhances the synthetic neuron simulation lab by adding a potentiometer to dynamically adjust the action potential threshold. The simulation is based on the Hodgkin-Huxley model, which describes the initiation and propagation of action potentials in neurons.
 
-Update the Arduino code to read the potentiometer value and use it to adjust the action potential threshold. The potentiometer will simulate the action potential threshold by influencing the injected current (I_inj).
+### Objectives
 
-Arduino Code
-cpp
-Copy code
+1. Integrate a potentiometer into the Arduino setup.
+2. Modify the code to read the potentiometer value and adjust the action potential threshold (`I_inj`).
+3. Visualize the effects of changing the threshold on the membrane potential using an oscilloscope.
+
+## Materials Needed
+
+- Arduino microcontroller
+- Breadboard and connecting wires
+- Potentiometer (10kΩ recommended)
+- Resistors and LEDs (optional, for visual representation of the output)
+- Computer with Arduino IDE installed
+- Oscilloscope
+
+## Setup
+
+### Connecting the Potentiometer
+
+1. Connect one outer pin of the potentiometer to the 5V pin on the Arduino.
+2. Connect the other outer pin to the GND pin.
+3. Connect the middle pin (wiper) to an analog input pin on the Arduino (e.g., A0).
+
+### Arduino Code
+
+```cpp
 // Synthetic Arduino neuron simulation with adjustable threshold
 
 // Initial values for gating variables and membrane potential
@@ -116,9 +120,3 @@ double h_prime(double h, double V) {
   double dh = k_1 - (k_1 + k_2) * h;
   return dh;
 }
-Connecting the Oscilloscope
-Connect the ground probe of the oscilloscope to the ground pin on the Arduino.
-Connect the signal probe of the oscilloscope to pin 3 of the Arduino.
-Turn on the oscilloscope and set it to the appropriate voltage and time scales to visualize the signal from the Arduino.
-Conclusion
-By adding a potentiometer to the setup, you can dynamically adjust the action potential threshold and observe how this change affects the neuron's behavior. This enhancement provides a more interactive and hands-on approach to studying the dynamics of neurons and the principles of bioelectricity. Using the oscilloscope allows you to visualize the changes in membrane potential in real-time, further enhancing your understanding of neuronal activity.
