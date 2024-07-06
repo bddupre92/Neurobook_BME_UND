@@ -1,3 +1,4 @@
+![alt text]([http://url/to/img.png](https://github.com/bddupre92/Neurobook_BME_UND/blob/main/Chapter1a/Lab1/Synthetic%20Neuron%20Board.png))
 # Synthetic Neuron Simulation with Arduino
 
 This repository contains the code and instructions for simulating the behavior of a synthetic neuron using an Arduino microcontroller. The simulation is based on the Hodgkin-Huxley model, which describes how action potentials in neurons are initiated and propagated through the movement of ions across the cell membrane.
