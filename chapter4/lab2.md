@@ -1,8 +1,6 @@
 In this lab, we will become familiar with EEGLAB, a MATLAB toolbox designed for processing electroencephalography (EEG), magnetoencephalography (MEG), and other electrophysiological data. Distributed under the free BSD license, EEGLAB offers a comprehensive suite of tools for displaying and analyzing EEG data.
 # Installation and Main Features
-EEGLAB is hosted by the Swartz Center for Computational Neuroscience at UC San Diego. You can download the toolbox from this link.
-[a link](https://sccn.ucsd.edu/eeglab/index.php )
-
+EEGLAB is hosted by the Swartz Center for Computational Neuroscience at UC San Diego. You can download the toolbox from this [link](https://sccn.ucsd.edu/eeglab/index.php ).
 We extend our gratitude to UC San Diego for providing this valuable resource.
 ## Download and Installation
 The download and installation process is similar to that of other MATLAB toolboxes:
@@ -30,33 +28,33 @@ To load a sample dataset, follow these steps:
 These sample datasets will help you familiarize yourself with the features and capabilities of EEGLAB.
  ![image](https://github.com/user-attachments/assets/89697482-5360-40b1-b889-3f91c35ce5d8)
 
-In our case we will select eeglab_data.set
+In our case, we will select eeglab_data.set
  
 ![image](https://github.com/user-attachments/assets/f3e0d0bb-6a8e-4f79-afe2-7ab097f433b4)
 
 In this lab, we will work with the eeglab_data.set sample dataset.
-Loading the EEG Data
+##Loading the EEG Data
 1.	Select eeglab_data.set from the available options.
 2.	This dataset contains EEG data with 32 channels, each labeled accordingly.
-Visualizing the Data
+##Visualizing the Data
 Once the data is loaded, EEGLAB allows you to plot all the channels in the time domain to observe different events. In this dataset:
 •	Square events are highlighted in green.
 •	RT events are highlighted in red.
 
  ![image](https://github.com/user-attachments/assets/0c9d5187-f596-4d0f-880e-594cc454acab)
 
-Power Spectral Density
+##Power Spectral Density
 EEGLAB also provides tools to plot the power spectral density (PSD) of the EEG signals. This feature is useful for identifying channels that may be faulty or need to be excluded from the analysis.
 ![image](https://github.com/user-attachments/assets/4b5720cf-2034-4b5a-b452-88c2752c847c)
 
  
-Inspecting Specific Channels
+##Inspecting Specific Channels
 You can isolate a specific channel and visualize its properties using the pop_prop function. This feature enables detailed inspection of individual channels, facilitating quick and efficient EEG data analysis.
 
  ![image](https://github.com/user-attachments/assets/f3a5c313-78b1-4741-93e0-9e7ada27b37a)
 
 
-Advanced Features
+##Advanced Features
 EEGLAB is a robust tool with a variety of advanced features:
 •	Filtering: EEGLAB allows you to apply frequency-delimited filters to the signals, which helps in isolating specific frequency bands of interest.
 •	Artifact Removal: You can use independent component analysis (ICA) to remove artifacts from the data.
@@ -76,14 +74,14 @@ For the Artifact Subspace Reconstruction (ASR) tool, again go to the Tools menu 
  ![image](https://github.com/user-attachments/assets/20b1f086-6ecb-41ab-be0c-80bd4568036d)
 
 Both tools are integral for cleaning EEG data in EEGLAB, effectively removing noise and artifacts to enhance data quality. As shown, the signals in red have been identified as potential rejects from the dataset.
-ERPs
+##ERPs
 An Event-Related Potential (ERP) is a measured brain response that is the direct result of a specific sensory, cognitive, or motor event. ERPs are derived from electroencephalography (EEG) recordings and are used in cognitive neuroscience, psychology, and other fields to study brain function.
 
 ![image](https://github.com/user-attachments/assets/a9a0979d-941b-492c-9996-28308d113321)
 
  
-Figure 1: Event-related potential in response to a visual stimulus as obtained by averaging the EEG signal of multiple stimulus presentations (S1, S2,… Sn). Originally published in Purves et al. (2008)
-How ERPs are Obtained Based on EEG
+Figure: Event-related potential in response to a visual stimulus as obtained by averaging the EEG signal of multiple stimulus presentations (S1, S2,… Sn). Originally published in Purves et al. (2008)
+###How ERPs are Obtained Based on EEG
 1. EEG Recording
 Electroencephalography (EEG) involves placing electrodes on the scalp to measure the electrical activity produced by neurons in the brain. The raw EEG signal is a complex mix of electrical activity from multiple sources, including both spontaneous brain activity and responses to specific events.
 2. Experimental Design
