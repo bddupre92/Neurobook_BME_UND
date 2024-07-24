@@ -60,9 +60,9 @@ You can isolate a specific channel and visualize its properties using the **pop_
 
 ## Advanced Features
 EEGLAB is a robust tool with a variety of advanced features:
-•	**Filtering**: EEGLAB allows you to apply frequency-delimited filters to the signals, which helps in isolating specific frequency bands of interest.
-•	**Artifact Removal**: You can use independent component analysis (ICA) to remove artifacts from the data.
-•	**Event-Related Potentials (ERP)**: EEGLAB enables the extraction and classification of event-related potentials (ERP), which are brain responses directly resulting from specific sensory, cognitive, or motor events. By averaging the responses of all events, you can build a signature waveform distinctive of the response to a specific stimulus.
+- **Filtering**: EEGLAB allows you to apply frequency-delimited filters to the signals, which helps in isolating specific frequency bands of interest.
+- **Artifact Removal**: You can use independent component analysis (ICA) to remove artifacts from the data.
+- **Event-Related Potentials (ERP)**: EEGLAB enables the extraction and classification of event-related potentials (ERP), which are brain responses directly resulting from specific sensory, cognitive, or motor events. By averaging the responses of all events, you can build a signature waveform distinctive of the response to a specific stimulus.
 These basic and advanced tools provided by EEGLAB allow for rapid and in-depth inspection and analysis of EEG data.
  
 ![image](https://github.com/user-attachments/assets/e68b0413-27d9-4292-8ff3-7ba4edd70a23)
