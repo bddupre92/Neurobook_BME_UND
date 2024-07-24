@@ -52,7 +52,7 @@ EEGLAB also provides tools to plot the power spectral density (PSD) of the EEG s
 ![image](https://github.com/user-attachments/assets/4b5720cf-2034-4b5a-b452-88c2752c847c)
 
  
-##Inspecting Specific Channels
+## Inspecting Specific Channels
 You can isolate a specific channel and visualize its properties using the **pop_prop** function. This feature enables detailed inspection of individual channels, facilitating quick and efficient EEG data analysis.
 
  ![image](https://github.com/user-attachments/assets/f3a5c313-78b1-4741-93e0-9e7ada27b37a)
