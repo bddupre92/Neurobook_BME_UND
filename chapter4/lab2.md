@@ -119,14 +119,10 @@ The result of averaging and baseline correction is a series of ERP waveforms, wh
 ERPs provide valuable insights into the timing and nature of cognitive processes by allowing researchers to examine the brain's electrical response to specific events in real-time.
 EEGLAB includes the extraction and examination of Event-Related Potentials (ERPs). To analyze ERPs using EEGLAB, researchers first import their raw EEG data into the software. They then preprocess the data, which typically involves filtering to remove noise, epoching the continuous EEG data into time segments around the events of interest, and performing baseline correction. Artifact rejection or correction methods are applied to remove noise from non-neural sources such as eye movements or muscle activity. Once clean epochs are obtained, they are averaged to isolate the ERP components related to specific stimuli or tasks. EEGLAB provides various tools for visualizing these ERP waveforms, including plotting the averaged ERP data and topographical maps to examine spatial distributions of the ERP components. Additionally, EEGLAB supports statistical analysis and comparison of ERP components across different experimental conditions. This comprehensive suite of tools within EEGLAB facilitates detailed ERP analysis, helping researchers to interpret the neural mechanisms underlying cognitive processes.
 
-
-
-<p align="center">
-  <img src="http://some_place.com/image.png" />
  ![image](https://github.com/user-attachments/assets/a08042ef-f501-44f4-98c7-48a0612d7055)
-</p>
-References:
 
-EEGLAB: https://sccn.ucsd.edu/eeglab
-Delorme, A., & Makeig, S. (2004). EEGLAB: an open source toolbox for analysis of single-trial EEG dynamics including independent component analysis. Journal of neuroscience methods, 134(1), 9–21.
-Makeig, S., Westerfield, M., Jung, T. P., Covington, J., Townsend, J., Sejnowski, T. J., & Courchesne, E. (1999). Functionally independent components of the late positive event-related potential during visual spatial attention. Journal of Neuroscience, 19(7), 2665–2680.
+## References:
+
+- EEGLAB: https://sccn.ucsd.edu/eeglab
+- Delorme, A., & Makeig, S. (2004). EEGLAB: an open source toolbox for analysis of single-trial EEG dynamics including independent component analysis. Journal of neuroscience methods, 134(1), 9–21.
+- Makeig, S., Westerfield, M., Jung, T. P., Covington, J., Townsend, J., Sejnowski, T. J., & Courchesne, E. (1999). Functionally independent components of the late positive event-related potential during visual spatial attention. Journal of Neuroscience, 19(7), 2665–2680.
