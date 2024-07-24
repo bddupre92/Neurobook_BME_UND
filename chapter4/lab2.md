@@ -26,15 +26,19 @@ To load a sample dataset, follow these steps:
 3.	Browse to the sample_data folder within the EEGLAB toolbox directory.
 4.	You will see several options of sample datasets to choose from.
 These sample datasets will help you familiarize yourself with the features and capabilities of EEGLAB.
- ![image](https://github.com/user-attachments/assets/89697482-5360-40b1-b889-3f91c35ce5d8)
 
-In our case, we will select eeglab_data.set
- 
-![image](https://github.com/user-attachments/assets/f3e0d0bb-6a8e-4f79-afe2-7ab097f433b4)
 
 In this lab, we will work with the eeglab_data.set sample dataset.
+
+![image](https://github.com/user-attachments/assets/89697482-5360-40b1-b889-3f91c35ce5d8)
+
+As shown, the sample data contains over 30,000 frames per epoch, 32 channels per frame, and 154 events, and it is sampled at 128 Hz, meaning 128 samples per second.
+
+![image](https://github.com/user-attachments/assets/f3e0d0bb-6a8e-4f79-afe2-7ab097f433b4)
+
+
 ##Loading the EEG Data
-1.	Select eeglab_data.set from the available options.
+1.	Select **eeglab_data.set** from the available options.
 2.	This dataset contains EEG data with 32 channels, each labeled accordingly.
 ##Visualizing the Data
 Once the data is loaded, EEGLAB allows you to plot all the channels in the time domain to observe different events. In this dataset:
@@ -49,20 +53,19 @@ EEGLAB also provides tools to plot the power spectral density (PSD) of the EEG s
 
  
 ##Inspecting Specific Channels
-You can isolate a specific channel and visualize its properties using the pop_prop function. This feature enables detailed inspection of individual channels, facilitating quick and efficient EEG data analysis.
+You can isolate a specific channel and visualize its properties using the **pop_prop** function. This feature enables detailed inspection of individual channels, facilitating quick and efficient EEG data analysis.
 
  ![image](https://github.com/user-attachments/assets/f3a5c313-78b1-4741-93e0-9e7ada27b37a)
 
 
 ##Advanced Features
 EEGLAB is a robust tool with a variety of advanced features:
-•	Filtering: EEGLAB allows you to apply frequency-delimited filters to the signals, which helps in isolating specific frequency bands of interest.
-•	Artifact Removal: You can use independent component analysis (ICA) to remove artifacts from the data.
-•	Event-Related Potentials (ERP): EEGLAB enables the extraction and classification of event-related potentials (ERP), which are brain responses directly resulting from specific sensory, cognitive, or motor events. By averaging the responses of all events, you can build a signature waveform distinctive of the response to a specific stimulus.
+•	**Filtering**: EEGLAB allows you to apply frequency-delimited filters to the signals, which helps in isolating specific frequency bands of interest.
+•	**Artifact Removal**: You can use independent component analysis (ICA) to remove artifacts from the data.
+•	**Event-Related Potentials (ERP)**: EEGLAB enables the extraction and classification of event-related potentials (ERP), which are brain responses directly resulting from specific sensory, cognitive, or motor events. By averaging the responses of all events, you can build a signature waveform distinctive of the response to a specific stimulus.
 These basic and advanced tools provided by EEGLAB allow for rapid and in-depth inspection and analysis of EEG data.
  
-
- ![image](https://github.com/user-attachments/assets/e68b0413-27d9-4292-8ff3-7ba4edd70a23)
+![image](https://github.com/user-attachments/assets/e68b0413-27d9-4292-8ff3-7ba4edd70a23)
 
 ![image](https://github.com/user-attachments/assets/96a44516-0b1b-4f09-8366-9adef3a38301)
 
@@ -113,9 +116,6 @@ ERPs provide valuable insights into the timing and nature of cognitive processes
 EEGLAB includes the extraction and examination of Event-Related Potentials (ERPs). To analyze ERPs using EEGLAB, researchers first import their raw EEG data into the software. They then preprocess the data, which typically involves filtering to remove noise, epoching the continuous EEG data into time segments around the events of interest, and performing baseline correction. Artifact rejection or correction methods are applied to remove noise from non-neural sources such as eye movements or muscle activity. Once clean epochs are obtained, they are averaged to isolate the ERP components related to specific stimuli or tasks. EEGLAB provides various tools for visualizing these ERP waveforms, including plotting the averaged ERP data and topographical maps to examine spatial distributions of the ERP components. Additionally, EEGLAB supports statistical analysis and comparison of ERP components across different experimental conditions. This comprehensive suite of tools within EEGLAB facilitates detailed ERP analysis, helping researchers to interpret the neural mechanisms underlying cognitive processes.
 
 ![image](https://github.com/user-attachments/assets/a08042ef-f501-44f4-98c7-48a0612d7055)
-
- 
-Drawsyness
 
 References:
 
