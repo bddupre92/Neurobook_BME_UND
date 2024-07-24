@@ -99,17 +99,15 @@ Before averaging, a baseline correction is often performed. This involves subtra
 The result of averaging and baseline correction is a series of ERP waveforms, which reflect the brain's electrical response to the specific event. These waveforms consist of a series of positive and negative voltage deflections (peaks and troughs) occurring at different latencies (times) after the stimulus.
 
 ## Key Components of ERPs
-•	Latency: The time between the onset of the stimulus and the occurrence of a particular ERP component (peak or trough). This reflects the timing of neural processes.
-•	Amplitude: The magnitude of the voltage change associated with an ERP component, which can indicate the strength of the neural response.
-•	Polarity: Whether the ERP component is positive (upwards) or negative (downwards).
-•	Topography: The distribution of ERP amplitudes across the scalp, which can provide information about the source of the neural activity.
+- Latency: The time between the onset of the stimulus and the occurrence of a particular ERP component (peak or trough). This reflects the timing of neural processes.
+- Amplitude: The magnitude of the voltage change associated with an ERP component, which can indicate the strength of the neural response.
+- Polarity: Whether the ERP component is positive (upwards) or negative (downwards).
+- Topography: The distribution of ERP amplitudes across the scalp, which can provide information about the source of the neural activity.
 ## Common ERP Components
 
-•	P300: A positive deflection occurring around 300 milliseconds after stimulus onset, often associated with attention and decision-making processes.
-
-•	N400: A negative deflection peaking around 400 milliseconds, related to language processing and semantic incongruence.
-
-•	N170: A negative component occurring around 170 milliseconds, associated with face perception.
+- P300: A positive deflection occurring around 300 milliseconds after stimulus onset, often associated with attention and decision-making processes.
+- N400: A negative deflection peaking around 400 milliseconds, related to language processing and semantic incongruence.
+- N170: A negative component occurring around 170 milliseconds, associated with face perception.
 
 ## Example of ERP Analysis Process
 
