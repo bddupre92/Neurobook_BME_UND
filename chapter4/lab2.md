@@ -84,7 +84,7 @@ An Event-Related Potential (ERP) is a measured brain response that is the direct
 
  
 Figure: Event-related potential in response to a visual stimulus as obtained by averaging the EEG signal of multiple stimulus presentations (S1, S2,… Sn). Originally published in Purves et al. (2008)
-###How ERPs are Obtained Based on EEG
+### How ERPs are Obtained Based on EEG
 1. EEG Recording
 Electroencephalography (EEG) involves placing electrodes on the scalp to measure the electrical activity produced by neurons in the brain. The raw EEG signal is a complex mix of electrical activity from multiple sources, including both spontaneous brain activity and responses to specific events.
 2. Experimental Design
@@ -97,16 +97,16 @@ Because the EEG signal contains a lot of noise from unrelated brain activity, mu
 Before averaging, a baseline correction is often performed. This involves subtracting the mean voltage of a pre-stimulus period (e.g., the time just before the stimulus is presented) from the entire epoch. This helps to correct for any slow drifts in the EEG signal.
 6. Resulting ERP Waveforms
 The result of averaging and baseline correction is a series of ERP waveforms, which reflect the brain's electrical response to the specific event. These waveforms consist of a series of positive and negative voltage deflections (peaks and troughs) occurring at different latencies (times) after the stimulus.
-##Key Components of ERPs
+## Key Components of ERPs
 •	Latency: The time between the onset of the stimulus and the occurrence of a particular ERP component (peak or trough). This reflects the timing of neural processes.
 •	Amplitude: The magnitude of the voltage change associated with an ERP component, which can indicate the strength of the neural response.
 •	Polarity: Whether the ERP component is positive (upwards) or negative (downwards).
 •	Topography: The distribution of ERP amplitudes across the scalp, which can provide information about the source of the neural activity.
-##Common ERP Components
+## Common ERP Components
 •	P300: A positive deflection occurring around 300 milliseconds after stimulus onset, often associated with attention and decision-making processes.
 •	N400: A negative deflection peaking around 400 milliseconds, related to language processing and semantic incongruence.
 •	N170: A negative component occurring around 170 milliseconds, associated with face perception.
-##Example of ERP Analysis Process
+## Example of ERP Analysis Process
 1.	Record EEG data while a participant performs a task involving repeated stimuli.
 2.	Segment the data into epochs around each stimulus presentation.
 3.	Apply baseline correction to each epoch.
