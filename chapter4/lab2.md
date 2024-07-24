@@ -58,7 +58,7 @@ You can isolate a specific channel and visualize its properties using the **pop_
  ![image](https://github.com/user-attachments/assets/f3a5c313-78b1-4741-93e0-9e7ada27b37a)
 
 
-##Advanced Features
+## Advanced Features
 EEGLAB is a robust tool with a variety of advanced features:
 •	**Filtering**: EEGLAB allows you to apply frequency-delimited filters to the signals, which helps in isolating specific frequency bands of interest.
 •	**Artifact Removal**: You can use independent component analysis (ICA) to remove artifacts from the data.
@@ -77,7 +77,7 @@ For the Artifact Subspace Reconstruction (ASR) tool, again go to the Tools menu 
  ![image](https://github.com/user-attachments/assets/20b1f086-6ecb-41ab-be0c-80bd4568036d)
 
 Both tools are integral for cleaning EEG data in EEGLAB, effectively removing noise and artifacts to enhance data quality. As shown, the signals in red have been identified as potential rejects from the dataset.
-##ERPs
+## ERPs
 An Event-Related Potential (ERP) is a measured brain response that is the direct result of a specific sensory, cognitive, or motor event. ERPs are derived from electroencephalography (EEG) recordings and are used in cognitive neuroscience, psychology, and other fields to study brain function.
 
 ![image](https://github.com/user-attachments/assets/a9a0979d-941b-492c-9996-28308d113321)
@@ -97,16 +97,22 @@ Because the EEG signal contains a lot of noise from unrelated brain activity, mu
 Before averaging, a baseline correction is often performed. This involves subtracting the mean voltage of a pre-stimulus period (e.g., the time just before the stimulus is presented) from the entire epoch. This helps to correct for any slow drifts in the EEG signal.
 6. Resulting ERP Waveforms
 The result of averaging and baseline correction is a series of ERP waveforms, which reflect the brain's electrical response to the specific event. These waveforms consist of a series of positive and negative voltage deflections (peaks and troughs) occurring at different latencies (times) after the stimulus.
+
 ## Key Components of ERPs
 •	Latency: The time between the onset of the stimulus and the occurrence of a particular ERP component (peak or trough). This reflects the timing of neural processes.
 •	Amplitude: The magnitude of the voltage change associated with an ERP component, which can indicate the strength of the neural response.
 •	Polarity: Whether the ERP component is positive (upwards) or negative (downwards).
 •	Topography: The distribution of ERP amplitudes across the scalp, which can provide information about the source of the neural activity.
 ## Common ERP Components
+
 •	P300: A positive deflection occurring around 300 milliseconds after stimulus onset, often associated with attention and decision-making processes.
+
 •	N400: A negative deflection peaking around 400 milliseconds, related to language processing and semantic incongruence.
+
 •	N170: A negative component occurring around 170 milliseconds, associated with face perception.
+
 ## Example of ERP Analysis Process
+
 1.	Record EEG data while a participant performs a task involving repeated stimuli.
 2.	Segment the data into epochs around each stimulus presentation.
 3.	Apply baseline correction to each epoch.
