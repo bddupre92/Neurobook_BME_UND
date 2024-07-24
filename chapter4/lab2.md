@@ -37,7 +37,7 @@ As shown, the sample data contains over 30,000 frames per epoch, 32 channels per
 ![image](https://github.com/user-attachments/assets/f3e0d0bb-6a8e-4f79-afe2-7ab097f433b4)
 
 
-##Loading the EEG Data
+## Loading the EEG Data
 1.	Select **eeglab_data.set** from the available options.
 2.	This dataset contains EEG data with 32 channels, each labeled accordingly.
 ##Visualizing the Data
@@ -47,7 +47,7 @@ Once the data is loaded, EEGLAB allows you to plot all the channels in the time 
 
  ![image](https://github.com/user-attachments/assets/0c9d5187-f596-4d0f-880e-594cc454acab)
 
-##Power Spectral Density
+## Power Spectral Density
 EEGLAB also provides tools to plot the power spectral density (PSD) of the EEG signals. This feature is useful for identifying channels that may be faulty or need to be excluded from the analysis.
 ![image](https://github.com/user-attachments/assets/4b5720cf-2034-4b5a-b452-88c2752c847c)
 
