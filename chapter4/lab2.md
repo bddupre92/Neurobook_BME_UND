@@ -13,3 +13,6 @@ After installation, you can launch EEGLAB by running the eeglab.m file. To do th
 2.	Navigate to the directory where you unzipped EEGLAB.
 3.	Type eeglab in the MATLAB command window and press Enter.
 This action should open the EEGLAB graphical user interface (GUI), which will appear as follows:
+
+![image](https://github.com/user-attachments/assets/64ba1bc2-c898-4b02-a51f-23fa5e528bda)
+
