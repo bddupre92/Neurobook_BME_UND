@@ -134,13 +134,13 @@ In working memory tasks, capacity is typically calculated using the measure "K,"
 
 In our case, the capacity is approximately 3.4, this means that, on average, the participant (us) can hold and accurately maintain about 3.4 items in their visual working memory. This measure indicates the maximum number of items a person can effectively store and manipulate in their mind over a short period.
 ### Implications of a Capacity of 3.4
-1.	* High Performance *:
+1.	**High Performance**:
 o	A capacity of 3.4 is relatively high, suggesting that participants have a strong ability to retain and process visual information.
-2.	Comparison to Typical Capacities:
+2.	**Comparison to Typical Capacities:**
 o	This value is above the commonly cited average working memory capacity of 3-4 items, indicating that participants are performing at or slightly above average in terms of their visual working memory abilities.
-3.	Experimental Context:
+3.	**Experimental Context**:
 o	This capacity is context-dependent and can be influenced by various factors such as the nature of the stimuli, the duration of the retention interval, and the specific task demands.
-4.	Cognitive Implications:
+4.	**Cognitive Implications**:
 o	Higher working memory capacity is often associated with better performance in tasks that require attention, problem-solving, and learning. It suggests that participants can efficiently manage and utilize multiple pieces of visual information simultaneously.
 A working memory capacity of approximately 3.4 means that participants are capable of holding and accurately recalling around 3.4 visual items at a time, reflecting a robust capacity for visual information processing. This measure provides valuable understanding into their cognitive abilities and can inform further research or practical applications where working memory plays a crucial role.
 The most common capacity for visual working memory, often cited in psychological and cognitive neuroscience research, is typically around 3-4 items. This estimate is based on numerous studies that have investigated the limits of working memory using various tasks and methodologies.
@@ -148,5 +148,6 @@ Evidence about capacity (K)
 1.	Classic Studies: Early research by George Miller in 1956 suggested that the average capacity of short-term memory is about 7 ± 2 items. However, more recent studies focusing specifically on visual working memory have found that this capacity is actually smaller, generally around 3-4 items.
 2.	Empirical Findings: Many experiments using change detection tasks, similar to the ones described by Vogel and Machizawa (2004), consistently find that participants can hold approximately 3-4 items in visual working memory before their performance begins to decline.
 3.	Contralateral Delay Activity (CDA): Research using neural measures such as CDA also supports this capacity limit. The CDA amplitude increases with the number of items held in memory up to about 3-4 items, after which it plateaus, indicating a maximum capacity.
+   
 We invite you to complete this task to determine your own working memory capacity.
 
