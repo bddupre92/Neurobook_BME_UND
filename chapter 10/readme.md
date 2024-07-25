@@ -18,7 +18,6 @@ The visual working memory capacity experiment conducted by Vogel and Machizawa i
 Once Psychtoolbox is installed, you simply need to run the WorkingMemoryCapacity.m script. The code will first prompt participants to complete an identification form.
 
 `prompt = {'Participant ID (1 - 999):', ...
-
     'Please enter your sex (m/w/d):', ...
     
     'Please enter your year of birth:'};
