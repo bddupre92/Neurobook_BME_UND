@@ -89,11 +89,13 @@ squareSizeVA = 0.65;  % in degrees of visual angle
 Visual angle is a measure of how large an object appears to an observer, based on its size and distance from the observer. It is important in fields like vision science and experimental psychology because it helps quantify how much of the visual field an object occupies. Here's how visual angle is calculated:
 ### Formula for Visual Angle
 The visual angle (θ) in degrees can be calculated using the formula:
+
 $θ=2×arctan⁡(d2D)\theta = 2 \times \arctan\left(\frac{d}{2D}\right)θ=2×arctan(2Dd)$
+
 Where:
-•	θ\thetaθ = Visual angle in degrees
-•	ddd = Diameter or height of the object (or stimulus)
-•	DDD = Distance from the observer to the object
+•	$θ\thetaθ$ = Visual angle in degrees
+•	$ddd$ = Diameter or height of the object (or stimulus)
+•	$DDD$ = Distance from the observer to the object
 Steps for Calculation
 1.	Measure the Object's Size (d):
 o	Determine the actual size of the object or stimulus in units such as centimeters or inches.
@@ -104,9 +106,13 @@ o	Substitute the values for ddd and DDD into the formula to find the visual angl
 ### Example Calculation
 Suppose you have an object that is 10 cm in diameter (d) and it is viewed from a distance of 100 cm (D).
 1.	Convert the measurements into the formula:
-θ=2×arctan⁡(10/2100)=2×arctan⁡(5100)\theta = 2 \times \arctan\left(\frac{10 / 2}{100}\right) = 2 \times \arctan\left(\frac{5}{100}\right)θ=2×arctan(10010/2)=2×arctan(1005)
-2.	Calculate the visual angle:
-θ=2×arctan⁡(0.05)≈2×2.86∘≈5.72∘\theta = 2 \times \arctan(0.05) \approx 2 \times 2.86^\circ \approx 5.72^\circθ=2×arctan(0.05)≈2×2.86∘≈5.72∘
+2.	
+$θ=2×arctan⁡(10/2100)=2×arctan⁡(5100)\theta = 2 \times \arctan\left(\frac{10 / 2}{100}\right) = 2 \times \arctan\left(\frac{5}{100}\right)θ=2×arctan(10010/2)=2×arctan(1005)$
+
+3.	Calculate the visual angle:
+
+$θ=2×arctan⁡(0.05)≈2×2.86∘≈5.72∘\theta = 2 \times \arctan(0.05) \approx 2 \times 2.86^\circ \approx 5.72^\circθ=2×arctan(0.05)≈2×2.86∘≈5.72∘$
+
 So, the visual angle of the object is approximately 5.72 degrees.
 ## Subject responses
 Participants are asked to respond if they notice a change in the square configuration, indicating whether the pattern is identical or different. Psychtoolbox uses specific code to facilitate response mechanisms, such as the keyboard. In this case, pressing the letter 'J' signifies that the pattern is identical, while pressing 'F' indicates that it is different.
