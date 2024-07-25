@@ -149,5 +149,5 @@ The most common capacity for visual working memory, often cited in psychological
 2.	**Empirical Findings**: Many experiments using change detection tasks, similar to the ones described by Vogel and Machizawa (2004), consistently find that participants can hold approximately 3-4 items in visual working memory before their performance begins to decline.
 3.	**Contralateral Delay Activity (CDA)**: Research using neural measures such as CDA also supports this capacity limit. The CDA amplitude increases with the number of items held in memory up to about 3-4 items, after which it plateaus, indicating a maximum capacity.
    
-We invite you to complete this task to determine your own working memory capacity.
+# We invite you to complete this task to determine your own working memory capacity.
 
