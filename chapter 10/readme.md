@@ -20,5 +20,4 @@ Once Psychtoolbox is installed, you simply need to run the WorkingMemoryCapacity
 ` prompt = {'Participant ID (1 - 999):', ...
     'Please enter your sex (m/w/d):', ...
     
-    'Please enter your year of birth:'};
-`
+    'Please enter your year of birth:'};`
