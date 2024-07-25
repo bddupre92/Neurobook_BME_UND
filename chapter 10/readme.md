@@ -13,7 +13,7 @@ Psychtoolbox is particularly powerful in experiments that require precise contro
 
 It is available for both MATLAB and Octave. This powerful tool offers a range of commands that simplify the process of creating experiments. For more information about the available functions, visit: Psychtoolbox Documentation. After installing Psychtoolbox in MATLAB, you can begin designing your own experiments. In this instance, we will use an implementation provided by *Marvin Theiss*.
 
-[https://github.com/mrvnthss/visual-working-memory-capacity](https://github.com/mrvnthss/visual-working-memory-capacity)
+[*Marvin Theiss*](https://github.com/mrvnthss/visual-working-memory-capacity)
 
 ![image](https://github.com/user-attachments/assets/fd7a965b-8936-4db3-8404-451373a7c013)
 
