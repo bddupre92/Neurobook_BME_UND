@@ -151,3 +151,21 @@ The most common capacity for visual working memory, often cited in psychological
    
 # We invite you to complete this task to determine your own working memory capacity.
 
+## References
+Brainard, D. H. (1997). The Psychophysics toolbox. Spatial Vision, 10(4), 433–436. https://doi.org/10.1163/156856897X00357
+
+Kleiner, M., Brainard, D. H., & Pelli, D. G. (2007). What’s new in Psychtoolbox-3? Perception, 36(ECVP Abstract Supplement), 14. https://doi.org/10.1177/03010066070360S101
+
+Pavlov, Y. G., Adamian, N., Appelhoff, S., Arvaneh, M., Benwell, C. S. Y., Beste, C., Bland, A. R., Bradford, D. E., Bublatzky, F., Busch, N. A., Clayson, P. E., Cruse, D., Czeszumski, A., Dreber, A., Dumas, G., Ehinger, B., Ganis, G., He, X., Hinojosa, J. A., … Mushtaq, F. (2021). #EEGManyLabs: Investigating the replicability of influential EEG experiments. Cortex, 144, 213–229. https://doi.org/10.1016/j.cortex.2021.03.013
+
+Pelli, D. G. (1997). The VideoToolbox software for visual psychophysics: Transforming numbers into movies. Spatial Vision, 10(4), 437–442. https://doi.org/10.1163/156856897X00366
+
+The MathWorks Inc. (2023). MATLAB (9.14.0) [Computer software]. The MathWorks Inc. https://www.mathworks.com
+
+Vogel, E. K., & Machizawa, M. G. (2004). Neural activity predicts individual differences in visual working memory capacity. Nature, 428(6984), 748–751. https://doi.org/10.1038/nature02447
+
+## Acknowledgments
+- The experiment code is based on the Psychtoolbox library. For more information about Psychtoolbox, visit Psychtoolbox.
+- The grammarly.com Grammar Checker was used to check written text for spelling and grammar mistakes.
+- Screenshots and screen capture videos were taken/recorded using macOS' built-in Screenshot app.
+- The Gifski app was used to convert screen capture videos into GIFs.
