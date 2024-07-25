@@ -93,23 +93,20 @@ The visual angle (θ) in degrees can be calculated using the formula:
 $θ=2×arctan⁡(d2D)\theta = 2 \times \arctan\left(\frac{d}{2D}\right)θ=2×arctan(2Dd)$
 
 Where:
-•	$θ\thetaθ$ = Visual angle in degrees
-•	$ddd$ = Diameter or height of the object (or stimulus)
-•	$DDD$ = Distance from the observer to the object
+- $θ\thetaθ$ = Visual angle in degrees
+- $ddd$ = Diameter or height of the object (or stimulus)
+- $DDD$ = Distance from the observer to the object
 Steps for Calculation
-1.	Measure the Object's Size (d):
-o	Determine the actual size of the object or stimulus in units such as centimeters or inches.
-2.	Measure the Viewing Distance (D):
-o	Measure the distance from the observer’s eyes to the object or stimulus. This is often done in centimeters or inches.
-3.	Apply the Formula:
-o	Substitute the values for ddd and DDD into the formula to find the visual angle.
+1.	Measure the Object's Size (d): Determine the actual size of the object or stimulus in units such as centimeters or inches.
+3.	Measure the Viewing Distance (D): Measure the distance from the observer’s eyes to the object or stimulus. This is often done in centimeters or inches.
+4.	Apply the Formula: Substitute the values for $ddd$ and $DDD$ into the formula to find the visual angle.
 ### Example Calculation
 Suppose you have an object that is 10 cm in diameter (d) and it is viewed from a distance of 100 cm (D).
 1.	Convert the measurements into the formula:
-2.	
+
 $θ=2×arctan⁡(10/2100)=2×arctan⁡(5100)\theta = 2 \times \arctan\left(\frac{10 / 2}{100}\right) = 2 \times \arctan\left(\frac{5}{100}\right)θ=2×arctan(10010/2)=2×arctan(1005)$
 
-3.	Calculate the visual angle:
+2.	Calculate the visual angle:
 
 $θ=2×arctan⁡(0.05)≈2×2.86∘≈5.72∘\theta = 2 \times \arctan(0.05) \approx 2 \times 2.86^\circ \approx 5.72^\circθ=2×arctan(0.05)≈2×2.86∘≈5.72∘$
 
@@ -139,7 +136,7 @@ The responses, along with the data from each trial, are then saved in an Excel f
 ![image](https://github.com/user-attachments/assets/8770c24d-1b11-43b1-9eb4-7a4c3bce16d9)
 
 The package from Marvin Theiss also includes a procedure for analyzing the data generated from the experiment. This script processes the CSV file created during the experiment and calculates the hit rate, false alarm rate, and working memory capacity.
-In working memory tasks, capacity is typically calculated using the measure "K," which represents the number of items a participant can hold in working memory. This measure is often derived from a change detection task where participants are shown an array of visual stimuli, such as colored rectangles, for a brief period. After a short delay, a second array is presented, and participants must determine if it is the same as the first array or if one item has changed. The number of items in the arrays, or set size, varies across trials. To calculate K, the proportion of correct responses (hit rate) and incorrect responses when no change occurs (false alarm rate) are recorded. The formula for calculating working memory capacity is K=S×(H−F)K = S \times (H - F)K=S×(H−F), where S is the set size, H is the hit rate, and F is the false alarm rate. For example, with a set size of 4 items, a hit rate of 0.75, and a false alarm rate of 0.20, the capacity K would be 4×(0.75−0.20)=2.24 \times (0.75 - 0.20) = 2.24×(0.75−0.20)=2.2. This means the participant can accurately maintain and process about 2.2 items in their visual working memory. This calculation is essential for understanding individual differences in cognitive abilities and comparing performance across different populations or experimental conditions.
+In working memory tasks, capacity is typically calculated using the measure "K," which represents the number of items a participant can hold in working memory. This measure is often derived from a change detection task where participants are shown an array of visual stimuli, such as colored rectangles, for a brief period. After a short delay, a second array is presented, and participants must determine if it is the same as the first array or if one item has changed. The number of items in the arrays, or set size, varies across trials. To calculate K, the proportion of correct responses (hit rate) and incorrect responses when no change occurs (false alarm rate) are recorded. The formula for calculating working memory capacity is $K=S×(H−F)K = S \times (H - F)K=S×(H−F)$, where S is the set size, H is the hit rate, and F is the false alarm rate. For example, with a set size of 4 items, a hit rate of 0.75, and a false alarm rate of 0.20, the capacity K would be $4×(0.75−0.20)=2.24 \times (0.75 - 0.20) = 2.24×(0.75−0.20)=2.2$. This means the participant can accurately maintain and process about 2.2 items in their visual working memory. This calculation is essential for understanding individual differences in cognitive abilities and comparing performance across different populations or experimental conditions.
 
 ![image](https://github.com/user-attachments/assets/a6004ae7-692b-4abe-ab41-439ac26b4cfd)
 
