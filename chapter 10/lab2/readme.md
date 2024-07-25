@@ -161,6 +161,10 @@ The most common capacity for visual working memory, often cited in psychological
 # We invite you to complete this task to determine your own working memory capacity.
 
 ## References
+[https://psychtoolbox.org/](https://psychtoolbox.org/)
+
+[https://github.com/mrvnthss/visual-working-memory-capacity] (https://github.com/mrvnthss/visual-working-memory-capacity)
+
 Brainard, D. H. (1997). The Psychophysics toolbox. Spatial Vision, 10(4), 433–436. https://doi.org/10.1163/156856897X00357
 
 Kleiner, M., Brainard, D. H., & Pelli, D. G. (2007). What’s new in Psychtoolbox-3? Perception, 36(ECVP Abstract Supplement), 14. https://doi.org/10.1177/03010066070360S101
