@@ -91,8 +91,6 @@ Visual angle is a measure of how large an object appears to an observer, based o
 ### Formula for Visual Angle
 The visual angle (θ) in degrees can be calculated using the formula:
 
-$θ=2×arctan⁡(d2D)$
-
 $\theta = 2 \times \arctan\left(\frac{d}{2D}\right)$
 
 Where:
