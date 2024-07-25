@@ -105,7 +105,7 @@ Steps for Calculation
 Suppose you have an object that is 10 cm in diameter (d) and it is viewed from a distance of 100 cm (D).
 1.	Convert the measurements into the formula:
 
-$θ=2×arctan⁡(10/2100)=2×arctan⁡(5100)\theta = 2 \times \arctan\left(\frac{10 / 2}{100}\right) = 2 \times \arctan\left(\frac{5}{100}\right)θ=2×arctan(10010/2)=2×arctan(1005)$
+$\theta = 2 \times \arctan\left(\frac{10 / 2}{100}\right) = 2 \times \arctan\left(\frac{5}{100}\right)$
 
 2.	Calculate the visual angle:
 
