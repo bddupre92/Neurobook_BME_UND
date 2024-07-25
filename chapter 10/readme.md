@@ -25,7 +25,8 @@ Once Psychtoolbox is installed, you simply need to run the WorkingMemoryCapacity
 ```Matlab
 prompt = {'Participant ID (1 - 999):', ...
     'Please enter your sex (m/w/d):', ...
-    'Please enter your year of birth:'};```
+    'Please enter your year of birth:'};
+```
 
 This allows experimenters to keep track of the data collected during the experiment. 
 Additionally, the experiment provides options for adjusting specific parameters.
