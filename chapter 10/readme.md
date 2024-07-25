@@ -15,8 +15,6 @@ It is available for both MATLAB and Octave. This powerful tool offers a range of
 
 ## Working memory experiment
 
-
-
 The visual working memory capacity experiment conducted by Vogel and Machizawa in 2004 aimed  to explore the limitations and neural mechanisms underpinning visual working memory. Participants in the study were presented with arrays of colored rectangles and tasked with remembering their colors and locations. Following a brief delay, they were shown a second array and had to determine if it was identical to the first or if one rectangle had changed color. The number of rectangles varied to assess memory capacity. EEG recordings, particularly focusing on the contralateral delay activity (CDA), were used to monitor neural activity. 
 
 ![image](https://github.com/user-attachments/assets/fd7a965b-8936-4db3-8404-451373a7c013)
@@ -47,7 +45,7 @@ nPracticeTrials = 10;
 ```
 
 SOA stands for "Stimulus Onset Asynchrony." It refers to the time interval between the onset of one stimulus and the onset of another stimulus. SOA is commonly used in experimental psychology, particularly in studies investigating perception, attention, and reaction times. By manipulating the SOA, researchers can examine how the timing of stimuli affects cognitive processes and behavioral responses. For example, in a visual attention experiment, varying the SOA between a cue and a target can help determine the speed and efficiency of attentional shifts.
-In our case this is variable to make the human subject not able to predict when the next stimulus happens.
+In our case, this is variable to make the human subject unable to predict when the next stimulus happens.
 
 ```Matlab
 % Set range to be used for the SOA (values are the ones used by Vogel &
@@ -91,7 +89,7 @@ squareSizeVA = 0.65;  % in degrees of visual angle
 Visual angle is a measure of how large an object appears to an observer, based on its size and distance from the observer. It is important in fields like vision science and experimental psychology because it helps quantify how much of the visual field an object occupies. Here's how visual angle is calculated:
 ### Formula for Visual Angle
 The visual angle (θ) in degrees can be calculated using the formula:
-θ=2×arctan⁡(d2D)\theta = 2 \times \arctan\left(\frac{d}{2D}\right)θ=2×arctan(2Dd)
+$θ=2×arctan⁡(d2D)\theta = 2 \times \arctan\left(\frac{d}{2D}\right)θ=2×arctan(2Dd)$
 Where:
 •	θ\thetaθ = Visual angle in degrees
 •	ddd = Diameter or height of the object (or stimulus)
