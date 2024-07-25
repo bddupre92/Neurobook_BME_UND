@@ -109,7 +109,7 @@ $\theta = 2 \times \arctan\left(\frac{10 / 2}{100}\right) = 2 \times \arctan\lef
 
 2.	Calculate the visual angle:
 
-$θ=2×arctan⁡(0.05)≈2×2.86∘≈5.72∘\theta = 2 \times \arctan(0.05) \approx 2 \times 2.86^\circ \approx 5.72^\circθ=2×arctan(0.05)≈2×2.86∘≈5.72∘$
+$θ=2×arctan⁡(0.05)≈2×2.86∘≈5.72∘$
 
 So, the visual angle of the object is approximately 5.72 degrees.
 ## Subject responses
