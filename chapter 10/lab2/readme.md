@@ -95,12 +95,10 @@ $θ=2×arctan⁡(d2D)$
 
 $\theta = 2 \times \arctan\left(\frac{d}{2D}\right)$
 
-$θ=2×arctan(2Dd)$
-
 Where:
-- $θ\thetaθ$ = Visual angle in degrees
-- $ddd$ = Diameter or height of the object (or stimulus)
-- $DDD$ = Distance from the observer to the object
+- $θ$ = Visual angle in degrees
+- $d$ = Diameter or height of the object (or stimulus)
+- $D$ = Distance from the observer to the object
 Steps for Calculation
 1.	Measure the Object's Size (d): Determine the actual size of the object or stimulus in units such as centimeters or inches.
 3.	Measure the Viewing Distance (D): Measure the distance from the observer’s eyes to the object or stimulus. This is often done in centimeters or inches.
