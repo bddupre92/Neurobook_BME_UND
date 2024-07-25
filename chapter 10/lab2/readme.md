@@ -100,7 +100,7 @@ Where:
 Steps for Calculation
 1.	Measure the Object's Size (d): Determine the actual size of the object or stimulus in units such as centimeters or inches.
 3.	Measure the Viewing Distance (D): Measure the distance from the observer’s eyes to the object or stimulus. This is often done in centimeters or inches.
-4.	Apply the Formula: Substitute the values for $ddd$ and $DDD$ into the formula to find the visual angle.
+4.	Apply the Formula: Substitute the values for $d$ and $D$ into the formula to find the visual angle.
 ### Example Calculation
 Suppose you have an object that is 10 cm in diameter (d) and it is viewed from a distance of 100 cm (D).
 1.	Convert the measurements into the formula:
