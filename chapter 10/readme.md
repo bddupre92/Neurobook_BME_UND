@@ -10,4 +10,13 @@ Psychtoolbox is a collection of free software tools that facilitates the design 
 Psychtoolbox is particularly powerful in experiments that require precise control over stimulus timing and presentation, such as studies in visual perception, auditory processing, and reaction time measurement.
 It is available for both MATLAB and Octave. This powerful tool offers a range of commands that simplify the process of creating experiments. For more information about the available functions, visit: Psychtoolbox Documentation. After installing Psychtoolbox in MATLAB, you can begin designing your own experiments. In this instance, we will use an implementation provided by Marvin Theiss.
 
-[I'm an inline-style link](https://github.com/mrvnthss/visual-working-memory-capacity)](https://github.com/mrvnthss/visual-working-memory-capacity)
+[https://github.com/mrvnthss/visual-working-memory-capacity](https://github.com/mrvnthss/visual-working-memory-capacity)
+
+![image](https://github.com/user-attachments/assets/fd7a965b-8936-4db3-8404-451373a7c013)
+
+The visual working memory capacity experiment conducted by Vogel and Machizawa in 2004 aimed  to explore the limitations and neural mechanisms underpinning visual working memory. Participants in the study were presented with arrays of colored rectangles and tasked with remembering their colors and locations. Following a brief delay, they were shown a second array and had to determine if it was identical to the first or if one rectangle had changed color. The number of rectangles varied to assess memory capacity. EEG recordings, particularly focusing on the contralateral delay activity (CDA), were used to monitor neural activity. The study found that participants' accuracy in detecting changes declined as the number of items increased, with a notable drop when the set size exceeded three to four items, indicating a memory capacity limit of about 3-4 items. Correspondingly, the amplitude of the CDA increased with the number of items up to this capacity limit, beyond which it plateaued, suggesting a fixed neural resource for visual working memory. This research highlighted that visual working memory is constrained by a capacity limit and established the CDA as a neural marker for the number of items held in memory, offering significant insights into the cognitive and neural mechanisms of working memory limitations.
+Once Psychtoolbox is installed, you simply need to run the WorkingMemoryCapacity.m script. The code will first prompt participants to complete an identification form.
+`prompt = {'Participant ID (1 - 999):', ...
+    'Please enter your sex (m/w/d):', ...
+    'Please enter your year of birth:'};
+`
