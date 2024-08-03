@@ -119,6 +119,70 @@ def run_simulation():
         plt.legend()
         plt.show()
 
+        # Additional plot: Current vs. Membrane Potential
+        currents = np.linspace(amp_value / 10, amp_value * 2, 10)
+        plt.figure(figsize=(10, 6))
+        for i, current in enumerate(currents):
+            t_h, v_h = run_healthy_simulation(current, duration_value, num_steps_value, dend_nseg_value, cm_value, Ra_value, gbar_hh_value, v_init_value)
+            t_p, v_p = run_parkinsons_simulation(current, duration_value, num_steps_value, dend_nseg_value, cm_value, Ra_value, gbar_hh_value, v_init_value)
+            plt.plot(t_h, v_h, color='blue', alpha=0.1 + 0.9 * (i / len(currents)))
+            plt.plot(t_p, v_p, color='red', alpha=0.1 + 0.9 * (i / len(currents)))
+        plt.xlabel('Time (ms)')
+        plt.ylabel('Membrane Potential (mV)')
+        plt.title('Current vs. Membrane Potential')
+        plt.show()
+
+        # Additional plot: Duration vs. Membrane Potential
+        durations = np.linspace(duration_value / 10, duration_value * 2, 10)
+        plt.figure(figsize=(10, 6))
+        for i, duration in enumerate(durations):
+            t_h, v_h = run_healthy_simulation(amp_value, duration, num_steps_value, dend_nseg_value, cm_value, Ra_value, gbar_hh_value, v_init_value)
+            t_p, v_p = run_parkinsons_simulation(amp_value, duration, num_steps_value, dend_nseg_value, cm_value, Ra_value, gbar_hh_value, v_init_value)
+            plt.plot(t_h, v_h, color='blue', alpha=0.1 + 0.9 * (i / len(durations)))
+            plt.plot(t_p, v_p, color='red', alpha=0.1 + 0.9 * (i / len(durations)))
+        plt.xlabel('Time (ms)')
+        plt.ylabel('Membrane Potential (mV)')
+        plt.title('Duration vs. Membrane Potential')
+        plt.show()
+
+        # Parameter Sensitivity Analysis
+        def plot_sensitivity(parameter, values, label, default_value):
+            plt.figure(figsize=(10, 6))
+            for i, value in enumerate(values):
+                kwargs = {
+                    'amp_value': amp_value,
+                    'duration_value': duration_value,
+                    'num_steps_value': num_steps_value,
+                    'dend_nseg_value': dend_nseg_value,
+                    'cm_value': cm_value if parameter != 'cm' else value,
+                    'Ra_value': Ra_value if parameter != 'Ra' else value,
+                    'gbar_hh_value': gbar_hh_value if parameter not in ['gbar_na', 'gbar_k', 'gbar_l'] else
+                    [value if parameter == 'gbar_na' else gbar_hh_value[0],
+                     value if parameter == 'gbar_k' else gbar_hh_value[1],
+                     value if parameter == 'gbar_l' else gbar_hh_value[2]],
+                    'v_init_value': v_init_value
+                }
+                t_h, v_h = run_healthy_simulation(**kwargs)
+                t_p, v_p = run_parkinsons_simulation(**kwargs)
+                plt.plot(t_h, v_h, color='blue', alpha=0.1 + 0.9 * (i / len(values)))
+                plt.plot(t_p, v_p, color='red', alpha=0.1 + 0.9 * (i / len(values)))
+            plt.xlabel('Time (ms)')
+            plt.ylabel('Membrane Potential (mV)')
+            plt.title(f'{label} Sensitivity')
+            plt.show()
+
+        cm_values = np.linspace(cm_value / 2, cm_value * 2, 10)
+        Ra_values = np.linspace(Ra_value / 2, Ra_value * 2, 10)
+        gbar_na_values = np.linspace(gbar_na_value / 2, gbar_na_value * 2, 10)
+        gbar_k_values = np.linspace(gbar_k_value / 2, gbar_k_value * 2, 10)
+        gbar_l_values = np.linspace(gbar_l_value / 2, gbar_l_value * 2, 10)
+
+        plot_sensitivity('cm', cm_values, 'Membrane Capacitance (cm)', cm_value)
+        plot_sensitivity('Ra', Ra_values, 'Axial Resistance (Ra)', Ra_value)
+        plot_sensitivity('gbar_na', gbar_na_values, 'Sodium Conductance (gbar_na)', gbar_na_value)
+        plot_sensitivity('gbar_k', gbar_k_values, 'Potassium Conductance (gbar_k)', gbar_k_value)
+        plot_sensitivity('gbar_l', gbar_l_values, 'Leak Conductance (gbar_l)', gbar_l_value)
+
     except ValueError:
         messagebox.showerror("Error", "Invalid input. Please enter numerical values.")
 
