@@ -1,4 +1,4 @@
-# Chapter 12: Lab 2
+# Chapter 12: Lab 1
 
 ## Overview
 
