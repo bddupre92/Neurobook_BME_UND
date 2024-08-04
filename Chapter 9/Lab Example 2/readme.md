@@ -148,8 +148,13 @@ for i = 1:length(saccade_starts)
 end
 
 ```
+
+![image](https://github.com/user-attachments/assets/ef08dae9-8aee-4a00-b2c4-a2aa993f421c)
+
 The script begins by calculating the velocity of the eye position using the diff function and scales it by the sampling rate to obtain the velocity in degrees per second. The eye_velocity array is then padded with a zero at the start to match the length of the eye_position array.
+
 For saccade detection, the script identifies indices where the absolute value of the velocity exceeds the velocity_threshold. Contiguous indices are grouped into individual saccades by detecting where the difference between successive indices is greater than one.
+
 The eye position is then plotted with the detected saccades highlighted in red, and the start and end times of each detected saccade are displayed in the console.
 Finally, the script prints the start time, end time, and amplitude of each detected saccade. This script should be run after the previous script that generates the saccade data. Adjust the velocity_threshold as needed to better match the characteristics of the saccades in your data.
 
