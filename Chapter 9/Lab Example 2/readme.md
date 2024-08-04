@@ -2,6 +2,9 @@
 
 Saccades are rapid, ballistic movements of the eyes that shift the point of fixation from one location to another. These movements are the fastest produced by the human body, with peak velocities ranging from 30 to 500 degrees per second and durations typically between 20 to 200 milliseconds, depending on the amplitude. Saccades can be both voluntary, such as when we decide to look at a specific object, and involuntary, occurring reflexively in response to stimuli. Despite their speed, saccades are highly precise, allowing the eyes to land accurately on the intended target. The latency, or the time from the appearance of a stimulus to the initiation of the saccade, is usually around 200 milliseconds.
 
+![image](https://github.com/user-attachments/assets/3590680f-0b97-4e51-b34e-902151ee1e00)
+
+
 In the context of eye tracking, saccades are crucial because they help identify periods of fixation when the eyes are relatively still. By analyzing these fixations, researchers and designers can gain insights into what captures and holds a person's attention. The frequency, amplitude, and duration of saccades are also indicators of cognitive load and attentional processes; for instance, increased saccadic activity might suggest higher cognitive processing or searching behavior. In usability studies, understanding gaze patterns and how users shift their gaze can inform improvements in interface design and overall user experience.
 
 In the field of psychophysics, which explores the relationship between physical stimuli and the resulting sensations and perceptions, saccades are integral to understanding visual perception. During saccades, vision is temporarily suppressed—a phenomenon known as saccadic suppression—enabling researchers to study how visual information is integrated across different fixations. Saccadic patterns also provide insights into attention and awareness, revealing how attention is shifted and maintained during various tasks. Additionally, the latency and dynamics of saccades are used in reaction time studies to investigate the timing and coordination of perceptual and motor processes.
@@ -19,6 +22,9 @@ In this lab, we will create MATLAB code capable of generating simulated saccades
 To simulate a saccade in MATLAB, we need to create a function that models the rapid, ballistic movement of an eye as it shifts focus from one point to another. Saccades are typically characterized by their quick acceleration and deceleration phases, and the dynamics can be approximated using a second-order system.
 
 To simulate a series of saccades, we can modify the previous script to include multiple saccades with varying amplitudes and intervals. Here's an updated version of the script to achieve this:
+
+![image](https://github.com/user-attachments/assets/e32a0d23-6ca8-42b7-a912-9fab589dbf62)
+
 
 ```matlab
 % Simulate a series of saccades in MATLAB
