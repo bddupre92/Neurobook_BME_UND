@@ -23,8 +23,6 @@ To simulate a saccade in MATLAB, we need to create a function that models the ra
 
 To simulate a series of saccades, we can modify the previous script to include multiple saccades with varying amplitudes and intervals. Here's an updated version of the script to achieve this:
 
-![image](https://github.com/user-attachments/assets/e32a0d23-6ca8-42b7-a912-9fab589dbf62)
-
 
 ```matlab
 % Simulate a series of saccades in MATLAB
@@ -94,6 +92,8 @@ saveas(gcf, 'series_of_saccades_simulation.png');
 % Display the plot
 disp('Series of saccades simulation completed.');
 ```
+
+![image](https://github.com/user-attachments/assets/e32a0d23-6ca8-42b7-a912-9fab589dbf62)
 
 The script simulates a series of saccades with parameters that define the amplitudes (in degrees), durations (in seconds), and intervals between successive saccades (also in seconds). The simulation operates at a specified sampling rate (samples per second). To compute the total simulation time, the script sums the durations of all saccades and the intervals between them. It initializes a time vector and an eye position array to represent the total simulation period.
 Within a loop, the script processes each saccade by defining its natural frequency (omega) and damping ratio (zeta). It computes the step response of a second-order system for each saccade, updates the eye position array with the new saccade data, and adjusts the current time to account for the duration of the saccade and the interval to the next one. Finally, the script plots the eye position over time, visualizing the series of saccades. This allows for adjustment of parameters to match the specific characteristics of the saccades being simulated.
