@@ -8,6 +8,7 @@ In this lab, we will create MATLAB code capable of generating simulated saccades
 To simulate a saccade in MATLAB, we need to create a function that models the rapid, ballistic movement of an eye as it shifts focus from one point to another. Saccades are typically characterized by their quick acceleration and deceleration phases, and the dynamics can be approximated using a second-order system.
 To simulate a series of saccades, we can modify the previous script to include multiple saccades with varying amplitudes and intervals. Here's an updated version of the script to achieve this:
 '''Matlab
+
 % Simulate a series of saccades in MATLAB
 
 % Parameters
