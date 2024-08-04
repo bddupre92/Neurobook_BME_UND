@@ -93,3 +93,63 @@ saveas(gcf, 'series_of_saccades_simulation.png');
 
 % Display the plot
 disp('Series of saccades simulation completed.');
+```
+
+The script simulates a series of saccades with parameters that define the amplitudes (in degrees), durations (in seconds), and intervals between successive saccades (also in seconds). The simulation operates at a specified sampling rate (samples per second). To compute the total simulation time, the script sums the durations of all saccades and the intervals between them. It initializes a time vector and an eye position array to represent the total simulation period.
+Within a loop, the script processes each saccade by defining its natural frequency (omega) and damping ratio (zeta). It computes the step response of a second-order system for each saccade, updates the eye position array with the new saccade data, and adjusts the current time to account for the duration of the saccade and the interval to the next one. Finally, the script plots the eye position over time, visualizing the series of saccades. This allows for adjustment of parameters to match the specific characteristics of the saccades being simulated.
+
+Now that we can generate saccades, it would be interesting to detect them as well.
+
+To detect saccades in the generated eye position data, we can use a velocity-based method. This involves computing the velocity of the eye position and identifying points where the velocity exceeds a certain threshold, which indicates the occurrence of a saccade.
+
+```matlab
+
+% Saccade detection based on generated data from the previous script
+
+% Parameters for saccade detection
+velocity_threshold = 500; % degrees per second
+
+% Compute the velocity of the eye position
+eye_velocity = diff(eye_position) * sampling_rate; % velocity in degrees per second
+eye_velocity = [0, eye_velocity]; % pad the first element to match the length of eye_position
+
+% Detect saccades based on the velocity threshold
+saccade_indices = find(abs(eye_velocity) > velocity_threshold);
+
+% Combine contiguous indices into saccades
+saccade_starts = saccade_indices([1, find(diff(saccade_indices) > 1) + 1]);
+saccade_ends = saccade_indices([find(diff(saccade_indices) > 1), end]);
+
+% Plot the detected saccades
+figure;
+plot(t_total, eye_position, 'LineWidth', 2);
+hold on;
+for i = 1:length(saccade_starts)
+    saccade_time = t_total(saccade_starts(i):saccade_ends(i));
+    saccade_pos = eye_position(saccade_starts(i):saccade_ends(i));
+    plot(saccade_time, saccade_pos, 'r', 'LineWidth', 2);
+end
+xlabel('Time (s)');
+ylabel('Eye Position (degrees)');
+title('Detected Saccades');
+legend('Eye Position', 'Detected Saccades');
+grid on;
+
+% Optional: Save the plot as an image
+saveas(gcf, 'detected_saccades.png');
+
+% Display the results
+disp('Saccade detection completed.');
+disp('Detected saccades:');
+for i = 1:length(saccade_starts)
+    fprintf('Saccade %d: Start Time = %.3f s, End Time = %.3f s, Amplitude = %.2f degrees\n', ...
+            i, t_total(saccade_starts(i)), t_total(saccade_ends(i)), ...
+            eye_position(saccade_ends(i)) - eye_position(saccade_starts(i)));
+end
+
+```
+The script begins by calculating the velocity of the eye position using the diff function and scales it by the sampling rate to obtain the velocity in degrees per second. The eye_velocity array is then padded with a zero at the start to match the length of the eye_position array.
+For saccade detection, the script identifies indices where the absolute value of the velocity exceeds the velocity_threshold. Contiguous indices are grouped into individual saccades by detecting where the difference between successive indices is greater than one.
+The eye position is then plotted with the detected saccades highlighted in red, and the start and end times of each detected saccade are displayed in the console.
+Finally, the script prints the start time, end time, and amplitude of each detected saccade. This script should be run after the previous script that generates the saccade data. Adjust the velocity_threshold as needed to better match the characteristics of the saccades in your data.
+
