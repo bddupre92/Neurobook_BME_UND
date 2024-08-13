@@ -10,13 +10,20 @@ We hope you enjoy your journey through this github!
 
 ## Chapter Folders
 
-- [Chapter 1](Chapter1)
-- [Chapter 2](Chapter2)
-- [Chapter 3](Chapter3)
-- ...
-- [Chapter 12](Chapter12)
+- [Chapter 1](Chapter%201)
+- [Chapter 2](Chapter%202)
+- [Chapter 3](Chapter%203)
+- [Chapter 4](Chapter%204)
+- [Chapter 5](Chapter%205)
+- [Chapter 6](Chapter%206)
+- [Chapter 7](Chapter%207)
+- [Chapter 8](Chapter%208)
+- [Chapter 9](Chapter%209)
+- [Chapter 10](Chapter%2010)
+- [Chapter 11](Chapter%2011)
+- [Chapter 12](Chapter%2012)
 
-## Setup Instructions
+## Setup Instructions For Python Code
 
 ### Prerequisites
 
