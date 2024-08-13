@@ -1,0 +1,6 @@
+neuron
+matplotlib
+numpy
+tkinter
+mplcursors
+

@@ -1,0 +1,4 @@
+neuron
+matplotlib
+numpy
+tkinter
