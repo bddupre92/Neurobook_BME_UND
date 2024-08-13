@@ -3,7 +3,10 @@ This repository houses all code bases, examples, and Read Me's for the Open Sour
 
 # Neuron Simulation Project
 
-This repository contains code examples for simulating neurons using the NEURON simulation environment. Each chapter of the book has its own folder containing relevant code examples, a `README.md` for instructions, and a `requirements.txt` for dependencies.
+This repository contains code examples for each chapter in the Neuoengineering textbook. Each chapter of the book has its own folder containing relevant code examples, a `README.md` for instructions, and a `requirements.txt` for dependencies if applicable.
+Code examples are written in various languages, styles, and requirements to allow for a breadth of experiences. As you go through the code examples, utilize your knowledge from the chapter to reinforce your learning!
+
+We hope you enjoy your journey through this github!
 
 ## Chapter Folders
 
