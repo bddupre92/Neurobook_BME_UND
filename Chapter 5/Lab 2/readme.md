@@ -106,6 +106,11 @@ That will conclude the fMRI tutorial from Mike X Cohen on YouTube. Mike X Cohen 
   
 YouTube is a tool that you can use to find a lot of tutorials using engineering tools to get started learning the platforms. 
 
+### Acknowledgements
+We would like to extend our sincere gratitude to Mike X Cohen for his invaluable contributions to our project. Special thanks go to Mike for allowing us to use his comprehensive YouTube tutorial as a reference for our lab example. His clear explanations and expert insights have greatly enhanced our understanding and implementation of the techniques discussed. We highly recommend exploring his channel for anyone interested in diving deeper into this field.
+
+
+
 
 
 
