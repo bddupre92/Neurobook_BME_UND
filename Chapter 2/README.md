@@ -216,6 +216,7 @@ tkinter
 - [VS Code Documentation](https://code.visualstudio.com/docs)
 - [Python Virtual Environments](https://docs.python.org/3/tutorial/venv.html)
 - [NEURON Documentation](https://neuron.yale.edu/neuron/docs)
+- [Neuron Github](https://github.com/neuronsimulator/nrn/tree/master).
 ```
 
 Copy and paste this entire markdown block into your `README.md` file on GitHub to provide a comprehensive guide for setting up and running the code examples in Chapter 2.
