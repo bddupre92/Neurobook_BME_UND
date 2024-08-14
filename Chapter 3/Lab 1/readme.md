@@ -85,7 +85,7 @@ Occlusion Sensitivity Maps: Generate maps to see which parts of the image are mo
 
 This code is a recreation of the Matlab Code found at the following link: https://github.com/matlab-deep-learning/Brain-MRI-Age-Classification-using-Deep-Learning?tab=License-1-ov-file#readme
 
-MathWorks Teaching Resources. (2022). Brain MRI Age Classification using Deep Learning (Course Integration Version). GitHub. Retrieved [August 10, 2024], from https://github.com/MathWorks-Teaching-Resources/Brain-MRI-Age-Classification-using-Deep-Learning
+[1] Vijay Iyer (2024). Brain-MRI-Age-Classification-using-Deep-Learning (https://github.com/matlab-deep-learning/Brain-MRI-Age-Classification-using-Deep-Learning/releases/tag/v1.1), GitHub. Retrieved August 14, 2024.
 
 Copyright (c) 2020, The MathWorks, Inc. All rights reserved. Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 
