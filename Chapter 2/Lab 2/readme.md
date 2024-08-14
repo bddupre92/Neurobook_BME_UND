@@ -118,7 +118,7 @@ Here is a breakdown of the key components of the Simulink model:
 
 Now that you have all the files and understand how they work watch the YouTube video where you will model tonic spiking and bursting. Click the scope box to view the neurons' spiking pattern.
 
-Next, we will take this lab further and model more spiking patterns, including inhibition-induced spiking and a resonator. You will first need to return to your Neuron Parameters code in MATLAB and add the following parameters for the variables.
+Next, we will take this lab further and model more spiking patterns, including inhibition-induced spiking and spike latency. You will first need to return to your Neuron Parameters code in MATLAB and add the following parameters for the variables.
 a = -0.02
 b = -1
 c = -60
@@ -127,7 +127,8 @@ I = 80
 
 Then, you will need to change T to equal 3. This means that MATLAB will pull the parameters from row three of the parameter’s matrix. Click Run. Then go to Simulink and click Run on your model. You must click Run in MATLAB before running the Simulink model again. You will see the firing pattern here.
 
-![image](https://github.com/user-attachments/assets/2e313247-0a57-4fc0-aba4-7dc0bfa0a875)
+![image](https://github.com/user-attachments/assets/79899e87-3edf-4dd2-8c19-2655fcc3ed91)
+
 
 Inhibition-Induced Spiking
 Inhibition-induced spiking, also known as post-inhibitory rebound speaking, is a phenomenon where a neuron generates action potentials in response to inhibitory input. This behavior is counterintuitive because inhibition typically reduces neuronal activity, yet it can trigger spiking in this case. The mechanism for inhibition-induced spiking involves:
@@ -139,17 +140,18 @@ Action Potential Generation: Where the rebound depolarization is strong enough, 
 Inhibition-induced spiking generates rhythmic patterns of activity in circuits responsible for locomotion and respiration. Additionally, this type of firing can help synchronize the activity of neural networks (Chapter 3), contributing to the coordination of the timing of neural processing. This type of firing pattern shows that an inhibitory signal is just as important as excitatory signaling.
 
 Now, let’s enter the following parameters for a resonator:
-a = 0.1
-b = 0.26
-c = -60
-d = -1
-I = 0
+a = 0.02
+b = 0.2
+c = -65
+d = 6
+I = 7
 
 Remember, you must change the T variable in MATLAB to the appropriate row in the matrix you want to pull from and click run on the MATLAB script before running the Simulink model.
 
-![image](https://github.com/user-attachments/assets/d1b85df3-688a-4700-b6af-e8f1ce402078)
+![image](https://github.com/user-attachments/assets/a3275667-8a3d-4515-b1b8-d1e52febfa9e)
 
-The resonator feature occurs during T=0 through T=150. A resonator is a type of neuron that prefers to respond to inputs at certain frequencies. This means that they respond more strongly to inputs at their preferred frequency. Resonator neurons are important in various neural circuits where frequency tuning is essential, such as in the auditory system (Chapter 11), where neurons must respond selectively to specific sound frequencies. They also play roles in motor control and other neural processes that involve rhythmic or periodic activity.
+Spike latency in neuroscience refers to the time delay between the onset of a stimulus and the generation of an action potential (spike) by a neuron. This measure is crucial for understanding how neurons respond to external stimuli and process information. Spike latency plays a key role in temporal encoding, as it helps neurons communicate the timing of sensory information. For example, in sensory systems, the latency of a spike can reflect how quickly a stimulus is processed, with shorter latencies indicating faster responses. This measure provides valuable insight into the efficiency and speed of neural circuits, which is particularly important for tasks requiring quick reflexes or rapid processing. Additionally, spike latency affects neural coding by influencing how information is represented and integrated within the brain. Variations in latency can be used to assess changes in neural function due to various factors, such as diseases or experimental manipulations. Moreover, alterations in spike latency can signal neural plasticity and learning, indicating modifications in synaptic connections or neural pathways. Overall, spike latency is a critical parameter for understanding the dynamics of neuronal responses and their contributions to sensory perception, motor control, and cognitive functions.
+
 
 That is the end of this lab example. You are encouraged to research different firing patterns that can be replicated using this model and try to use them in MATLAB and Simulink.
 
