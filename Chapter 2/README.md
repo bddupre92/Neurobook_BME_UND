@@ -1,4 +1,4 @@
-# Chapter 2: Hodgkin-Huxley Neuron Models
+# Chapter 2: Hodgkin-Huxley Neuron Models Lab 1
 
 This chapter contains code examples for simulating Hodgkin-Huxley neuron models using the NEURON simulation environment.
 
@@ -219,4 +219,5 @@ tkinter
 - [Neuron Github](https://github.com/neuronsimulator/nrn/tree/master).
 ```
 
-Copy and paste this entire markdown block into your `README.md` file on GitHub to provide a comprehensive guide for setting up and running the code examples in Chapter 2.
+[1] N. T. Carnevale, M. L. Hines, and The NEURON Simulator Development Team, "NEURON," Available: https://neuron.yale.edu/neuron/, Accessed: Aug. 13, 2024.
+
