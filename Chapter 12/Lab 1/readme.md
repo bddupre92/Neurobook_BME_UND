@@ -128,3 +128,5 @@ To explore the impact of different parameters on action potentials, you can modi
 - **Repolarization Phase**: The phase during which the membrane potential returns to the resting state. Alterations in this phase can reflect changes in potassium conductance or other repolarizing mechanisms.
 
 By systematically modifying these parameters, you can gain insights into how different factors contribute to the overall behavior of neurons in both healthy and diseased states. This understanding can help in developing targeted therapies for neurological disorders like Parkinson's disease.
+
+[1] N. T. Carnevale, M. L. Hines, and The NEURON Simulator Development Team, "NEURON," Available: https://neuron.yale.edu/neuron/, Accessed: Aug. 13, 2024.
