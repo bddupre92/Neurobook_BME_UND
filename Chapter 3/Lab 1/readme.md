@@ -1,6 +1,6 @@
 # Brain MRI Age Classification using Deep Learning
 
-This project demonstrates how to classify brain MRI images into different age groups using deep learning. It utilizes the ResNet50 model pre-trained on ImageNet for transfer learning. The project is structured to preprocess MRI data, train the model, evaluate its performance, and visualize the model's behavior using occlusion sensitivity maps.
+This project demonstrates how to classify brain MRI images into different age groups using deep learning. It utilizes the ResNet50 model pre-trained on ImageNet for transfer learning. The project is structured to preprocess MRI data, train the model, evaluate its performance, and visualize the model's behavior using occlusion sensitivity maps. This is a Python recreation of the Matlab model linked and cited below. 
 
 ## Project structure
 
