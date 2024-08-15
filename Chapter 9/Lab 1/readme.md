@@ -164,6 +164,7 @@ gaussianKernel = gaussianKernel / sum(gaussianKernel, 'all');
 
 This ends the eye-tracking MATLAB code segment. The commands we called above will detect the face, eyes, pupils, and collect an array of coordinates for their position on the screen. Let’s test the command by running it in MATLAB. It should successfully generate a window that can detect if you are looking left, right, or straight! It should look like Fig. 9.4.
 
+![image](https://github.com/user-attachments/assets/3d0376fc-957e-437c-a9e1-9ae29984dbc0)
 **Figure 9.4: Eye Tracking**
 
 To analyze and process the data one step further, we could try to generate a heatmap that represents a visual estimation of gaze points on the laptop screen, say if you were looking at an image. This plot can be accomplished with:
@@ -193,13 +194,13 @@ else
     disp('No screen position data available for heatmap generation.');
 end
 ```
-
+![image](https://github.com/user-attachments/assets/d2bef288-4c4f-413f-b2a1-36b8c3049011)
 **Figure 9.5: Smoothed 2D Heatmap**
 
 The end results of running this 30-second code could produce a rough estimation of your gaze in a heatmap to the screen dimensions. Alternatively, to following all of the above steps, you can run the provided `eyelab.m` MATLAB file.
 
 To experiment on mapping my gaze while looking at an image, let’s take a full-screen zoom of this chapter’s title image and map my gaze while looking at the title image shown on the right:
-
+![image](https://github.com/user-attachments/assets/864f4d62-8068-4626-ab4e-c1dfd0f5cd28)
 **Figure 9.6: Heatmap on Image**
 
 The result, if we were to plot the heatmap as an overlay to the original image (Fig. 9.6) (bottom toolbar cropped out), shows us a rough idea of how my gaze was concentrated on the image.
