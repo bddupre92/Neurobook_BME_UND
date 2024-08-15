@@ -91,6 +91,3 @@ In this lab exercise, the simulation results are visualized in Figures 7.7 and 7
 For advanced students, modify the simulation to explore different coil configurations (e.g., circular coil, double cone coil) and their effects on the magnetic and electric field distributions. Additionally, simulate the effects of varying stimulation parameters such as frequency and intensity on the induced electric fields.
 
 By the end of this exercise, students should have a better understanding of the physical principles underlying TMS and how these principles translate into neuronal activation, contributing to the therapeutic effects observed in clinical settings.
-```
-
-This Markdown version retains the formatting and content while using appropriate Markdown syntax.
