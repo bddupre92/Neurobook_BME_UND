@@ -1,6 +1,3 @@
-Here's the content converted into markdown format:
-
-```markdown
 # Chapter 9: Lab Example 1
 
 ## Overview
