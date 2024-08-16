@@ -27,13 +27,15 @@ Next, to upload the sample as a visual image, code >>fix_tree_UI in the command 
 
 ![image](https://github.com/user-attachments/assets/fc7a2b8a-ecb1-46e8-aa20-ade6b9611713)
 
-![image](https://github.com/user-attachments/assets/8925b40d-5664-478d-9d89-4bbf22b27e2f)
+![image](https://github.com/user-attachments/assets/bc118186-cd0e-4dda-ad20-eca45f9eec4f)
+
 
 Can you use your knowledge from this chapter to know what morphological structure is being depicted? If you said axon terminals, you are correct! In this sample, we see a visual representation of the axon terminals and a potential number of synaptic connections this sample could make. 
 
 Now, we will upload a new sample. Follow the same steps for the “sample.mtr” file but choose the “hss.mtr” file instead. Remember to upload this as your tree to be repaired and your reference tree. 
 
-![image](https://github.com/user-attachments/assets/63876f2f-486b-41f2-a288-efcef7fb1a21)
+![image](https://github.com/user-attachments/assets/8925b40d-5664-478d-9d89-4bbf22b27e2f)
+
 
 Using this file, we can see an example of an entire neuron show-casing all the morphological features. You can use the zoom-in and zoom-out buttons in the top left corner to take a closer look at the different parts of the neuron. 
 We can take this image rend-ing one step further by uploading an image stack. 
@@ -41,7 +43,7 @@ Navigate to the Load stack button in the right-hand corner. The “Pick a file�
 In this new image rendering, we can see how the morphology of these neurons is situated and what other neurons around it look like. 
 This toolbox can also visualize neurons, measure dendritic length, branch points, and surface area of neurons, and conduct statistical analysis on these parameters. 
 
-![image](https://github.com/user-attachments/assets/bc118186-cd0e-4dda-ad20-eca45f9eec4f)
+![image](https://github.com/user-attachments/assets/63876f2f-486b-41f2-a288-efcef7fb1a21)
 
 ## Other Examples and Resources
 
